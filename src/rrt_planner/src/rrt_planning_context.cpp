@@ -35,15 +35,14 @@ public:
   bool terminate() override { return false; }
   void clear() override {}
 
-  bool solve(planning_interface::MotionPlanResponse& res) override
+  void solve(planning_interface::MotionPlanResponse& res) override
   {
     const auto t0 = std::chrono::steady_clock::now();
 
     const auto* jmg = model_->getJointModelGroup(getGroupName());
     if (!jmg)
     {
-      res.error_code_.val = moveit_msgs::msg::MoveItErrorCodes::INVALID_GROUP_NAME;
-      return false;
+      res.error_code.val = moveit_msgs::msg::MoveItErrorCodes::INVALID_GROUP_NAME;
     }
 
     moveit::core::RobotState start_state = scene_->getCurrentState();
@@ -58,8 +57,7 @@ public:
     if (request_.goal_constraints.empty() ||
         request_.goal_constraints[0].joint_constraints.empty())
     {
-      res.error_code_.val = moveit_msgs::msg::MoveItErrorCodes::INVALID_GOAL_CONSTRAINTS;
-      return false;
+      res.error_code.val = moveit_msgs::msg::MoveItErrorCodes::INVALID_GOAL_CONSTRAINTS;
     }
 
     const auto& var_names = jmg->getVariableNames();
@@ -132,13 +130,11 @@ public:
 
     if (!collisionFreeState(q_start))
     {
-      res.error_code_.val = moveit_msgs::msg::MoveItErrorCodes::START_STATE_IN_COLLISION;
-      return false;
+      res.error_code.val = moveit_msgs::msg::MoveItErrorCodes::START_STATE_IN_COLLISION;
     }
     if (!collisionFreeState(q_goal))
     {
-      res.error_code_.val = moveit_msgs::msg::MoveItErrorCodes::GOAL_IN_COLLISION;
-      return false;
+      res.error_code.val = moveit_msgs::msg::MoveItErrorCodes::GOAL_IN_COLLISION;
     }
 
     std::vector<Node> tree;
@@ -201,8 +197,7 @@ public:
 
     if (goal_idx < 0)
     {
-      res.error_code_.val = moveit_msgs::msg::MoveItErrorCodes::PLANNING_FAILED;
-      return false;
+      res.error_code.val = moveit_msgs::msg::MoveItErrorCodes::PLANNING_FAILED;
     }
 
     // TODO: Reconstruct the path from start to goal
@@ -223,21 +218,22 @@ public:
       first = false;
     }
 
-    res.trajectory_ = std::make_shared<robot_trajectory::RobotTrajectory>(traj);
-    res.planning_time_ = std::chrono::duration<double>(std::chrono::steady_clock::now() - t0).count();
-    res.error_code_.val = moveit_msgs::msg::MoveItErrorCodes::SUCCESS;
-    return true;
+    res.trajectory = std::make_shared<robot_trajectory::RobotTrajectory>(traj);
+    res.planning_time = std::chrono::duration<double>(std::chrono::steady_clock::now() - t0).count();
+    res.error_code.val = moveit_msgs::msg::MoveItErrorCodes::SUCCESS;
   }
 
-  bool solve(planning_interface::MotionPlanDetailedResponse& res) override
+  void solve(planning_interface::MotionPlanDetailedResponse& res) override
   {
     planning_interface::MotionPlanResponse simple;
-    if (!solve(simple)) return false;
-    res.trajectory_.push_back(simple.trajectory_);
-    res.description_.push_back("plan");
-    res.processing_time_.push_back(simple.planning_time_);
-    res.error_code_ = simple.error_code_;
-    return true;
+    solve(simple);
+
+    res.error_code = simple.error_code;
+    if (simple.error_code != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) return;
+
+    res.trajectory.push_back(simple.trajectory);
+    res.description.push_back("plan");
+    res.processing_time.push_back(simple.planning_time);
   }
 
 private:
