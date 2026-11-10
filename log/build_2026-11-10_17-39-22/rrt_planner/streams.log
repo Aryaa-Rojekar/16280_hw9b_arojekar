@@ -1,0 +1,105 @@
+[0.019s] Invoking command in '/home/aryaa/hw9b_all/build/rrt_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aryaa/ros2_ws/install/tb3_yaw_fusion:/home/aryaa/ros2_ws/install/talker:/opt/ros/jazzy /usr/bin/cmake /home/aryaa/hw9b_all/src/rrt_planner -DCMAKE_INSTALL_PREFIX=/home/aryaa/hw9b_all/install/rrt_planner
+[0.308s] -- The C compiler identification is GNU 13.3.0
+[1.627s] -- The CXX compiler identification is GNU 13.3.0
+[2.531s] -- Detecting C compiler ABI info
+[3.003s] -- Detecting C compiler ABI info - done
+[3.007s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.008s] -- Detecting C compile features
+[3.009s] -- Detecting C compile features - done
+[3.231s] -- Detecting CXX compiler ABI info
+[3.747s] -- Detecting CXX compiler ABI info - done
+[3.752s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.753s] -- Detecting CXX compile features
+[3.753s] -- Detecting CXX compile features - done
+[3.786s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.903s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.009s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[4.400s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.428s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.460s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.484s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.594s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.598s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.659s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.981s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.200s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.742s] -- Found pluginlib: 5.4.5 (/opt/ros/jazzy/share/pluginlib/cmake)
+[5.767s] -- Found moveit_core: 2.12.4 (/opt/ros/jazzy/share/moveit_core/cmake)
+[6.065s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[7.199s] -- Found tcb_span: 1.3.2 (/opt/ros/jazzy/share/tcb_span/cmake)
+[7.205s] -- Found rclcpp_lifecycle: 28.1.21 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[7.239s] -- Found parameter_traits: 0.7.6 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[7.407s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[7.407s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.712s] -- Found moveit_ros_planning: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_planning/cmake)
+[7.715s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[7.744s] -- Found moveit_ros_planning_interface: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[7.748s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[7.761s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[7.782s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[7.872s] -- Configuring done (7.8s)
+[7.899s] -- Generating done (0.0s)
+[7.902s] -- Build files have been written to: /home/aryaa/hw9b_all/build/rrt_planner
+[7.912s] Invoked command in '/home/aryaa/hw9b_all/build/rrt_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aryaa/ros2_ws/install/tb3_yaw_fusion:/home/aryaa/ros2_ws/install/talker:/opt/ros/jazzy /usr/bin/cmake /home/aryaa/hw9b_all/src/rrt_planner -DCMAKE_INSTALL_PREFIX=/home/aryaa/hw9b_all/install/rrt_planner
+[7.913s] Invoking command in '/home/aryaa/hw9b_all/build/rrt_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aryaa/ros2_ws/install/tb3_yaw_fusion:/home/aryaa/ros2_ws/install/talker:/opt/ros/jazzy /usr/bin/cmake --build /home/aryaa/hw9b_all/build/rrt_planner -- -j22 -l22
+[7.944s] [ 50%] [32mBuilding CXX object CMakeFiles/rrt_planner.dir/src/rrt_planner_manager.cpp.o[0m
+[8.683s] In file included from [01m[K/home/aryaa/hw9b_all/src/rrt_planner/include/rrt_planner/rrt_planner_manager.hpp:3[m[K,
+[8.683s]                  from [01m[K/home/aryaa/hw9b_all/src/rrt_planner/src/rrt_planner_manager.cpp:1[m[K:
+[8.683s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_interface.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[8.683s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[8.683s]       |                                                                             [01;36m[K^[m[K
+[11.256s] In file included from [01m[K/home/aryaa/hw9b_all/src/rrt_planner/include/rrt_planner/rrt_planner_manager.hpp:4[m[K:
+[11.256s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[11.256s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[11.256s]       |                                                                             [01;36m[K^[m[K
+[11.256s] In file included from [01m[K/home/aryaa/hw9b_all/src/rrt_planner/include/rrt_planner/rrt_planner_manager.hpp:5[m[K:
+[11.256s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[11.256s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[11.256s]       |                                                                             [01;36m[K^[m[K
+[11.256s] In file included from [01m[K/home/aryaa/hw9b_all/src/rrt_planner/include/rrt_planner/rrt_planner_manager.hpp:6[m[K:
+[11.256s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[11.256s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[11.256s]       |                                                                             [01;36m[K^[m[K
+[11.271s] In file included from [01m[K/home/aryaa/hw9b_all/src/rrt_planner/src/rrt_planning_context.cpp:3[m[K,
+[11.271s]                  from [01m[K/home/aryaa/hw9b_all/src/rrt_planner/src/rrt_planner_manager.cpp:6[m[K:
+[11.271s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_trajectory/robot_trajectory.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[11.271s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[11.271s]       |                                                                             [01;36m[K^[m[K
+[11.271s] In file included from [01m[K/home/aryaa/hw9b_all/src/rrt_planner/src/rrt_planning_context.cpp:5[m[K:
+[11.271s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/conversions.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[11.271s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[11.271s]       |                                                                             [01;36m[K^[m[K
+[11.271s] In file included from [01m[K/home/aryaa/hw9b_all/src/rrt_planner/src/rrt_planning_context.cpp:6[m[K:
+[11.271s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/kinematic_constraints/utils.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[11.272s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[11.272s]       |                                                                             [01;36m[K^[m[K
+[13.657s] [100%] [32m[1mLinking CXX shared library librrt_planner.so[0m
+[14.440s] [100%] Built target rrt_planner
+[14.447s] Invoked command in '/home/aryaa/hw9b_all/build/rrt_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aryaa/ros2_ws/install/tb3_yaw_fusion:/home/aryaa/ros2_ws/install/talker:/opt/ros/jazzy /usr/bin/cmake --build /home/aryaa/hw9b_all/build/rrt_planner -- -j22 -l22
+[14.453s] Invoking command in '/home/aryaa/hw9b_all/build/rrt_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aryaa/ros2_ws/install/tb3_yaw_fusion:/home/aryaa/ros2_ws/install/talker:/opt/ros/jazzy /usr/bin/cmake --install /home/aryaa/hw9b_all/build/rrt_planner
+[14.457s] -- Install configuration: ""
+[14.457s] -- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/plugin_description.xml
+[14.458s] -- Installing: /home/aryaa/hw9b_all/install/rrt_planner/lib/librrt_planner.so
+[14.458s] -- Set non-toolchain portion of runtime path of "/home/aryaa/hw9b_all/install/rrt_planner/lib/librrt_planner.so" to ""
+[14.458s] -- Up-to-date: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/plugin_description.xml
+[14.458s] -- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/launch
+[14.459s] -- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/launch/run_panda_rrt.launch.py
+[14.459s] -- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/config
+[14.460s] -- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/config/rrt_moveit.rviz
+[14.461s] -- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/ament_index/resource_index/package_run_dependencies/rrt_planner
+[14.461s] -- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/ament_index/resource_index/parent_prefix_path/rrt_planner
+[14.461s] -- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/environment/ament_prefix_path.sh
+[14.461s] -- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/environment/ament_prefix_path.dsv
+[14.461s] -- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/environment/path.sh
+[14.461s] -- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/environment/path.dsv
+[14.462s] -- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/local_setup.bash
+[14.463s] -- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/local_setup.sh
+[14.463s] -- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/local_setup.zsh
+[14.463s] -- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/local_setup.dsv
+[14.463s] -- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/package.dsv
+[14.463s] -- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/ament_index/resource_index/packages/rrt_planner
+[14.463s] -- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/ament_index/resource_index/moveit_core__pluginlib__plugin/rrt_planner
+[14.463s] -- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/cmake/rrt_plannerConfig.cmake
+[14.463s] -- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/cmake/rrt_plannerConfig-version.cmake
+[14.463s] -- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/package.xml
+[14.464s] Invoked command in '/home/aryaa/hw9b_all/build/rrt_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aryaa/ros2_ws/install/tb3_yaw_fusion:/home/aryaa/ros2_ws/install/talker:/opt/ros/jazzy /usr/bin/cmake --install /home/aryaa/hw9b_all/build/rrt_planner

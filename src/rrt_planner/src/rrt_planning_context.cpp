@@ -151,6 +151,7 @@ public:
       if (uni01(rng) < goal_bias)
       {
         // Random sample should be goal configuration
+	q_rand = q_goal; // set q_rant to q_goal if within the probability bounds given
       }
       else
       {
@@ -158,14 +159,40 @@ public:
         {
           const auto& b = v_bounds[i];
           // Finish implementation of random sample
+	  // we are outside the probability bound
+	  // Check if position bounds are enabled for b
+            if (b.position_bounded_)
+            {
+                // uniformly sample between minimum and maximum position bounds
+                std::uniform_real_distribution<double> dist(b.min_position_, b.max_position_);
+                q_rand[i] = dist(rng);
+            }
+            else
+            {
+                // unbounded joints
+                std::uniform_real_distribution<double> dist_b(-M_PI, M_PI);
+            	q_rand[i] = dist_b(rng);
+            }
         }
       }
-      clampToBounds(q_rand);
+      clampToBounds(q_rand); // clamp bounds as instructed
 
       // TODO: Find the nearest node in the tree to q_rand
       // HINT: Use dist() to find closest node
       //       Store the index of the nearest node in variable 'nn'
-      int nn = 0; 
+      int nn = 0; //init
+      double min_dist = dist(tree[0].q, q_rand);//find min distance for start, using the init nn
+
+      for (std::size_t i = 1; i < tree.size(); ++i) // traversing the tree
+      {
+        double d = dist(tree[i].q, q_rand); // find distance
+        if (d < min_dist) //update if this is closer
+        {
+          min_dist = d;
+          nn = i;
+        }
+      }
+      double best = min_dist;
 
       // Steer from nearest node toward q_rand by at most distance 'step'
       std::vector<double> q_new(q_start.size());
@@ -184,15 +211,25 @@ public:
       // TODO: Check if the path from tree[nn].q to q_new is collision-free
       // HINT: Use collisionFreeSegment(tree[nn].q, q_new)
       //       If in collision, skip to next iteration with 'continue'
-
+      if (!collisionFreeSegment(tree[nn].q, q_new)){ // if the collision free segment returns false
+	continue;
+      }
       // TODO: Add q_new to the tree with parent nn
       // HINT: tree.push_back(Node{q_new, nn});
       //       Store the new node's index for the next check
+      tree.push_back(Node{q_new, nn});
+      int new_index = tree.size() - 1;
 
       // TODO: Check if q_new is close enough to q_goal
       // HINT: If dist(q_new, q_goal) < goal_thresh AND
       //       collisionFreeSegment(q_new, q_goal) is collision-free,
       //       then add q_goal to tree and set goal_idx, then break
+      if (dist(q_new, q_goal) < goal_thresh && collisionFreeSegment(q_new, q_goal)){
+	// succeeded the checks
+	tree.push_back(Node{q_goal, new_index}); // add goal node
+	goal_idx = tree.size() - 1; // Set goal idx
+	break;
+      }
     }
 
     if (goal_idx < 0)
@@ -205,6 +242,16 @@ public:
     //       Store configurations in 'path', then reverse it
     std::vector<std::vector<double>> path;
     
+    if (goal_idx != -1) // only applies if the path has been found
+    {
+      int curr = goal_idx; //start at goal
+      while (curr != -1)  // end at first node, which has parent -1
+      {
+        path.push_back(tree[curr].q); // Store q since q is a double
+        curr = tree[curr].parent;     // Move up to the parent index
+      }
+      std::reverse(path.begin(), path.end()); // Reverse to put start first and goal last
+    }
 
     moveit::core::RobotState st(start_state);
     robot_trajectory::RobotTrajectory traj(model_, jmg);

@@ -1,0 +1,257 @@
+[0.000000] (-) TimerEvent: {}
+[0.000167] (rrt_planner) JobQueued: {'identifier': 'rrt_planner', 'dependencies': OrderedDict()}
+[0.000193] (rrt_planner) JobStarted: {'identifier': 'rrt_planner'}
+[0.017770] (rrt_planner) JobProgress: {'identifier': 'rrt_planner', 'progress': 'cmake'}
+[0.018296] (rrt_planner) Command: {'cmd': ['/usr/bin/cmake', '/home/aryaa/hw9b_all/src/rrt_planner', '-DCMAKE_INSTALL_PREFIX=/home/aryaa/hw9b_all/install/rrt_planner'], 'cwd': '/home/aryaa/hw9b_all/build/rrt_planner', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aryaa', 'SSH_CLIENT': '127.0.0.1 40410 22003', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'SSH_AGENT_PID': '55973', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/aryaa/install/rrt_planner/lib:/home/aryaa/ros2_ws/install/rrt_planner/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aryaa', 'OLDPWD': '/home/aryaa', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/aryaa/install:/home/aryaa/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aryaa', 'NAME': 'aryaaslenovo', 'WSL_INTEROP': '/run/WSL/347_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'LIBGL_ALWAYS_INDIRECT': '1', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2604.1.75.0_x64__79rhkp1fndgsc:/mnt/c/Users/aryaa/AppData/Roaming/MobaXterm/slash/bin:/mnt/c/WINDOWS/:/mnt/c/WINDOWS/system32/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git/bin:/mnt/c/Program Files/WSL/:/mnt/c/Users/aryaa/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/aryaa/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/aryaa/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/aryaa/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/WINDOWS/sysnative/:/snap/bin', 'WSL_PAC_URL': 'http://PROXY-EXT-VIP.ANDREW.CMU.EDU/wpad.dat', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-EQxUI9xlbKOn/agent.55972', 'AMENT_PREFIX_PATH': '/home/aryaa/install/rrt_planner:/home/aryaa/ros2_ws/install/tb3_yaw_fusion:/home/aryaa/ros2_ws/install/talker:/home/aryaa/ros2_ws/install/rrt_planner:/home/aryaa/ros2_ws/install/cpp_listener:/home/aryaa/ros2_ws/install/complementary_cpp:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/aryaa/hw9b_all/build/rrt_planner', 'SSH_CONNECTION': '127.0.0.1 40410 127.0.0.1 22003', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aryaa/ros2_ws/install/tb3_yaw_fusion/lib/python3.12/site-packages:/home/aryaa/ros2_ws/install/talker/lib/python3.12/site-packages:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/aryaa/install/rrt_planner:/home/aryaa/ros2_ws/install/rrt_planner:/home/aryaa/ros2_ws/install/cpp_listener:/home/aryaa/ros2_ws/install/complementary_cpp:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/aryaa/ros2_ws/install/tb3_yaw_fusion:/home/aryaa/ros2_ws/install/talker:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.099327] (-) TimerEvent: {}
+[0.199746] (-) TimerEvent: {}
+[0.300054] (-) TimerEvent: {}
+[0.308498] (rrt_planner) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.400262] (-) TimerEvent: {}
+[0.500851] (-) TimerEvent: {}
+[0.601385] (-) TimerEvent: {}
+[0.701887] (-) TimerEvent: {}
+[0.802444] (-) TimerEvent: {}
+[0.902944] (-) TimerEvent: {}
+[1.003552] (-) TimerEvent: {}
+[1.104137] (-) TimerEvent: {}
+[1.204616] (-) TimerEvent: {}
+[1.304999] (-) TimerEvent: {}
+[1.405545] (-) TimerEvent: {}
+[1.506039] (-) TimerEvent: {}
+[1.606402] (-) TimerEvent: {}
+[1.627494] (rrt_planner) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.706523] (-) TimerEvent: {}
+[1.806844] (-) TimerEvent: {}
+[1.907251] (-) TimerEvent: {}
+[2.007749] (-) TimerEvent: {}
+[2.108268] (-) TimerEvent: {}
+[2.208887] (-) TimerEvent: {}
+[2.309352] (-) TimerEvent: {}
+[2.409772] (-) TimerEvent: {}
+[2.510415] (-) TimerEvent: {}
+[2.531352] (rrt_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.610649] (-) TimerEvent: {}
+[2.711256] (-) TimerEvent: {}
+[2.811674] (-) TimerEvent: {}
+[2.912080] (-) TimerEvent: {}
+[3.002728] (rrt_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.007453] (rrt_planner) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.008195] (rrt_planner) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.009281] (rrt_planner) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.012081] (-) TimerEvent: {}
+[3.112392] (-) TimerEvent: {}
+[3.212822] (-) TimerEvent: {}
+[3.231089] (rrt_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.312972] (-) TimerEvent: {}
+[3.413420] (-) TimerEvent: {}
+[3.514085] (-) TimerEvent: {}
+[3.614718] (-) TimerEvent: {}
+[3.715348] (-) TimerEvent: {}
+[3.747173] (rrt_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.751666] (rrt_planner) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.752810] (rrt_planner) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.753318] (rrt_planner) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.786319] (rrt_planner) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[3.815401] (-) TimerEvent: {}
+[3.903099] (rrt_planner) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[3.915482] (-) TimerEvent: {}
+[4.009188] (rrt_planner) StdoutLine: {'line': b'-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[4.015691] (-) TimerEvent: {}
+[4.116277] (-) TimerEvent: {}
+[4.216827] (-) TimerEvent: {}
+[4.317299] (-) TimerEvent: {}
+[4.399859] (rrt_planner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[4.417376] (-) TimerEvent: {}
+[4.427914] (rrt_planner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[4.460414] (rrt_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.484593] (rrt_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.517527] (-) TimerEvent: {}
+[4.594431] (rrt_planner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[4.598048] (rrt_planner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.617593] (-) TimerEvent: {}
+[4.659334] (rrt_planner) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[4.717777] (-) TimerEvent: {}
+[4.818444] (-) TimerEvent: {}
+[4.918934] (-) TimerEvent: {}
+[4.980712] (rrt_planner) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[5.018989] (-) TimerEvent: {}
+[5.119313] (-) TimerEvent: {}
+[5.200309] (rrt_planner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.219434] (-) TimerEvent: {}
+[5.319779] (-) TimerEvent: {}
+[5.420264] (-) TimerEvent: {}
+[5.520801] (-) TimerEvent: {}
+[5.621391] (-) TimerEvent: {}
+[5.722037] (-) TimerEvent: {}
+[5.742255] (rrt_planner) StdoutLine: {'line': b'-- Found pluginlib: 5.4.5 (/opt/ros/jazzy/share/pluginlib/cmake)\n'}
+[5.766650] (rrt_planner) StdoutLine: {'line': b'-- Found moveit_core: 2.12.4 (/opt/ros/jazzy/share/moveit_core/cmake)\n'}
+[5.822799] (-) TimerEvent: {}
+[5.923153] (-) TimerEvent: {}
+[6.023708] (-) TimerEvent: {}
+[6.065137] (rrt_planner) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[6.123833] (-) TimerEvent: {}
+[6.224217] (-) TimerEvent: {}
+[6.324538] (-) TimerEvent: {}
+[6.424782] (-) TimerEvent: {}
+[6.524991] (-) TimerEvent: {}
+[6.625291] (-) TimerEvent: {}
+[6.725590] (-) TimerEvent: {}
+[6.828941] (-) TimerEvent: {}
+[6.929256] (-) TimerEvent: {}
+[7.029703] (-) TimerEvent: {}
+[7.130110] (-) TimerEvent: {}
+[7.198873] (rrt_planner) StdoutLine: {'line': b'-- Found tcb_span: 1.3.2 (/opt/ros/jazzy/share/tcb_span/cmake)\n'}
+[7.204858] (rrt_planner) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 28.1.21 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)\n'}
+[7.230227] (-) TimerEvent: {}
+[7.238677] (rrt_planner) StdoutLine: {'line': b'-- Found parameter_traits: 0.7.6 (/opt/ros/jazzy/share/parameter_traits/cmake)\n'}
+[7.330290] (-) TimerEvent: {}
+[7.406846] (rrt_planner) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[7.407032] (rrt_planner) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[7.430380] (-) TimerEvent: {}
+[7.530639] (-) TimerEvent: {}
+[7.630965] (-) TimerEvent: {}
+[7.711690] (rrt_planner) StdoutLine: {'line': b'-- Found moveit_ros_planning: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_planning/cmake)\n'}
+[7.715166] (rrt_planner) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono \n'}
+[7.731057] (-) TimerEvent: {}
+[7.744276] (rrt_planner) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)\n'}
+[7.747708] (rrt_planner) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread \n'}
+[7.760927] (rrt_planner) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options \n'}
+[7.781691] (rrt_planner) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread \n'}
+[7.831185] (-) TimerEvent: {}
+[7.872391] (rrt_planner) StdoutLine: {'line': b'-- Configuring done (7.8s)\n'}
+[7.898779] (rrt_planner) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[7.902473] (rrt_planner) StdoutLine: {'line': b'-- Build files have been written to: /home/aryaa/hw9b_all/build/rrt_planner\n'}
+[7.912014] (rrt_planner) CommandEnded: {'returncode': 0}
+[7.913047] (rrt_planner) JobProgress: {'identifier': 'rrt_planner', 'progress': 'build'}
+[7.913065] (rrt_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aryaa/hw9b_all/build/rrt_planner', '--', '-j22', '-l22'], 'cwd': '/home/aryaa/hw9b_all/build/rrt_planner', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aryaa', 'SSH_CLIENT': '127.0.0.1 40410 22003', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'SSH_AGENT_PID': '55973', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/aryaa/install/rrt_planner/lib:/home/aryaa/ros2_ws/install/rrt_planner/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aryaa', 'OLDPWD': '/home/aryaa', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/aryaa/install:/home/aryaa/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aryaa', 'NAME': 'aryaaslenovo', 'WSL_INTEROP': '/run/WSL/347_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'LIBGL_ALWAYS_INDIRECT': '1', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2604.1.75.0_x64__79rhkp1fndgsc:/mnt/c/Users/aryaa/AppData/Roaming/MobaXterm/slash/bin:/mnt/c/WINDOWS/:/mnt/c/WINDOWS/system32/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git/bin:/mnt/c/Program Files/WSL/:/mnt/c/Users/aryaa/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/aryaa/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/aryaa/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/aryaa/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/WINDOWS/sysnative/:/snap/bin', 'WSL_PAC_URL': 'http://PROXY-EXT-VIP.ANDREW.CMU.EDU/wpad.dat', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-EQxUI9xlbKOn/agent.55972', 'AMENT_PREFIX_PATH': '/home/aryaa/install/rrt_planner:/home/aryaa/ros2_ws/install/tb3_yaw_fusion:/home/aryaa/ros2_ws/install/talker:/home/aryaa/ros2_ws/install/rrt_planner:/home/aryaa/ros2_ws/install/cpp_listener:/home/aryaa/ros2_ws/install/complementary_cpp:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/aryaa/hw9b_all/build/rrt_planner', 'SSH_CONNECTION': '127.0.0.1 40410 127.0.0.1 22003', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aryaa/ros2_ws/install/tb3_yaw_fusion/lib/python3.12/site-packages:/home/aryaa/ros2_ws/install/talker/lib/python3.12/site-packages:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/aryaa/install/rrt_planner:/home/aryaa/ros2_ws/install/rrt_planner:/home/aryaa/ros2_ws/install/cpp_listener:/home/aryaa/ros2_ws/install/complementary_cpp:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/aryaa/ros2_ws/install/tb3_yaw_fusion:/home/aryaa/ros2_ws/install/talker:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[7.931275] (-) TimerEvent: {}
+[7.944370] (rrt_planner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rrt_planner.dir/src/rrt_planner_manager.cpp.o\x1b[0m\n'}
+[8.031365] (-) TimerEvent: {}
+[8.131623] (-) TimerEvent: {}
+[8.231890] (-) TimerEvent: {}
+[8.332116] (-) TimerEvent: {}
+[8.432359] (-) TimerEvent: {}
+[8.532580] (-) TimerEvent: {}
+[8.632832] (-) TimerEvent: {}
+[8.682824] (rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/aryaa/hw9b_all/src/rrt_planner/include/rrt_planner/rrt_planner_manager.hpp:3\x1b[m\x1b[K,\n'}
+[8.683023] (rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aryaa/hw9b_all/src/rrt_planner/src/rrt_planner_manager.cpp:1\x1b[m\x1b[K:\n'}
+[8.683085] (rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_interface.h:50:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: .h header is obsolete. Please use the .hpp header instead.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.683149] (rrt_planner) StderrLine: {'line': b'   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[8.683193] (rrt_planner) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[8.732993] (-) TimerEvent: {}
+[8.833398] (-) TimerEvent: {}
+[8.933707] (-) TimerEvent: {}
+[9.034017] (-) TimerEvent: {}
+[9.134573] (-) TimerEvent: {}
+[9.235122] (-) TimerEvent: {}
+[9.335760] (-) TimerEvent: {}
+[9.436044] (-) TimerEvent: {}
+[9.536353] (-) TimerEvent: {}
+[9.636856] (-) TimerEvent: {}
+[9.737588] (-) TimerEvent: {}
+[9.838270] (-) TimerEvent: {}
+[9.938804] (-) TimerEvent: {}
+[10.039559] (-) TimerEvent: {}
+[10.139987] (-) TimerEvent: {}
+[10.240637] (-) TimerEvent: {}
+[10.340992] (-) TimerEvent: {}
+[10.441347] (-) TimerEvent: {}
+[10.541934] (-) TimerEvent: {}
+[10.642336] (-) TimerEvent: {}
+[10.742695] (-) TimerEvent: {}
+[10.843049] (-) TimerEvent: {}
+[10.943738] (-) TimerEvent: {}
+[11.044370] (-) TimerEvent: {}
+[11.146311] (-) TimerEvent: {}
+[11.246816] (-) TimerEvent: {}
+[11.255946] (rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/aryaa/hw9b_all/src/rrt_planner/include/rrt_planner/rrt_planner_manager.hpp:4\x1b[m\x1b[K:\n'}
+[11.256086] (rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.h:50:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: .h header is obsolete. Please use the .hpp header instead.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.256120] (rrt_planner) StderrLine: {'line': b'   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[11.256148] (rrt_planner) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[11.256175] (rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/aryaa/hw9b_all/src/rrt_planner/include/rrt_planner/rrt_planner_manager.hpp:5\x1b[m\x1b[K:\n'}
+[11.256202] (rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.h:51:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: .h header is obsolete. Please use the .hpp header instead.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.256227] (rrt_planner) StderrLine: {'line': b'   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[11.256251] (rrt_planner) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[11.256274] (rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/aryaa/hw9b_all/src/rrt_planner/include/rrt_planner/rrt_planner_manager.hpp:6\x1b[m\x1b[K:\n'}
+[11.256298] (rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.h:51:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: .h header is obsolete. Please use the .hpp header instead.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.256320] (rrt_planner) StderrLine: {'line': b'   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[11.256343] (rrt_planner) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[11.270994] (rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/aryaa/hw9b_all/src/rrt_planner/src/rrt_planning_context.cpp:3\x1b[m\x1b[K,\n'}
+[11.271129] (rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aryaa/hw9b_all/src/rrt_planner/src/rrt_planner_manager.cpp:6\x1b[m\x1b[K:\n'}
+[11.271170] (rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_core/moveit/robot_trajectory/robot_trajectory.h:50:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: .h header is obsolete. Please use the .hpp header instead.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.271201] (rrt_planner) StderrLine: {'line': b'   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[11.271226] (rrt_planner) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[11.271250] (rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/aryaa/hw9b_all/src/rrt_planner/src/rrt_planning_context.cpp:5\x1b[m\x1b[K:\n'}
+[11.271273] (rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/conversions.h:50:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: .h header is obsolete. Please use the .hpp header instead.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.271298] (rrt_planner) StderrLine: {'line': b'   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[11.271322] (rrt_planner) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[11.271452] (rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/aryaa/hw9b_all/src/rrt_planner/src/rrt_planning_context.cpp:6\x1b[m\x1b[K:\n'}
+[11.271597] (rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_core/moveit/kinematic_constraints/utils.h:50:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: .h header is obsolete. Please use the .hpp header instead.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.271671] (rrt_planner) StderrLine: {'line': b'   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[11.271734] (rrt_planner) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[11.346924] (-) TimerEvent: {}
+[11.447267] (-) TimerEvent: {}
+[11.547744] (-) TimerEvent: {}
+[11.648228] (-) TimerEvent: {}
+[11.748870] (-) TimerEvent: {}
+[11.849403] (-) TimerEvent: {}
+[11.949826] (-) TimerEvent: {}
+[12.050317] (-) TimerEvent: {}
+[12.150684] (-) TimerEvent: {}
+[12.251122] (-) TimerEvent: {}
+[12.351699] (-) TimerEvent: {}
+[12.451989] (-) TimerEvent: {}
+[12.552385] (-) TimerEvent: {}
+[12.653087] (-) TimerEvent: {}
+[12.753390] (-) TimerEvent: {}
+[12.853885] (-) TimerEvent: {}
+[12.954703] (-) TimerEvent: {}
+[13.055047] (-) TimerEvent: {}
+[13.155532] (-) TimerEvent: {}
+[13.255855] (-) TimerEvent: {}
+[13.356141] (-) TimerEvent: {}
+[13.456435] (-) TimerEvent: {}
+[13.556681] (-) TimerEvent: {}
+[13.656755] (rrt_planner) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library librrt_planner.so\x1b[0m\n'}
+[13.656895] (-) TimerEvent: {}
+[13.757164] (-) TimerEvent: {}
+[13.857556] (-) TimerEvent: {}
+[13.957830] (-) TimerEvent: {}
+[14.058096] (-) TimerEvent: {}
+[14.158444] (-) TimerEvent: {}
+[14.258823] (-) TimerEvent: {}
+[14.359116] (-) TimerEvent: {}
+[14.440012] (rrt_planner) StdoutLine: {'line': b'[100%] Built target rrt_planner\n'}
+[14.446655] (rrt_planner) CommandEnded: {'returncode': 0}
+[14.446873] (rrt_planner) JobProgress: {'identifier': 'rrt_planner', 'progress': 'install'}
+[14.452742] (rrt_planner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aryaa/hw9b_all/build/rrt_planner'], 'cwd': '/home/aryaa/hw9b_all/build/rrt_planner', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aryaa', 'SSH_CLIENT': '127.0.0.1 40410 22003', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'SSH_AGENT_PID': '55973', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/aryaa/install/rrt_planner/lib:/home/aryaa/ros2_ws/install/rrt_planner/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aryaa', 'OLDPWD': '/home/aryaa', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/aryaa/install:/home/aryaa/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aryaa', 'NAME': 'aryaaslenovo', 'WSL_INTEROP': '/run/WSL/347_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'LIBGL_ALWAYS_INDIRECT': '1', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2604.1.75.0_x64__79rhkp1fndgsc:/mnt/c/Users/aryaa/AppData/Roaming/MobaXterm/slash/bin:/mnt/c/WINDOWS/:/mnt/c/WINDOWS/system32/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git/bin:/mnt/c/Program Files/WSL/:/mnt/c/Users/aryaa/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/aryaa/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/aryaa/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/aryaa/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/WINDOWS/sysnative/:/snap/bin', 'WSL_PAC_URL': 'http://PROXY-EXT-VIP.ANDREW.CMU.EDU/wpad.dat', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-EQxUI9xlbKOn/agent.55972', 'AMENT_PREFIX_PATH': '/home/aryaa/install/rrt_planner:/home/aryaa/ros2_ws/install/tb3_yaw_fusion:/home/aryaa/ros2_ws/install/talker:/home/aryaa/ros2_ws/install/rrt_planner:/home/aryaa/ros2_ws/install/cpp_listener:/home/aryaa/ros2_ws/install/complementary_cpp:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/aryaa/hw9b_all/build/rrt_planner', 'SSH_CONNECTION': '127.0.0.1 40410 127.0.0.1 22003', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aryaa/ros2_ws/install/tb3_yaw_fusion/lib/python3.12/site-packages:/home/aryaa/ros2_ws/install/talker/lib/python3.12/site-packages:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/aryaa/install/rrt_planner:/home/aryaa/ros2_ws/install/rrt_planner:/home/aryaa/ros2_ws/install/cpp_listener:/home/aryaa/ros2_ws/install/complementary_cpp:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/aryaa/ros2_ws/install/tb3_yaw_fusion:/home/aryaa/ros2_ws/install/talker:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[14.456950] (rrt_planner) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.457050] (rrt_planner) StdoutLine: {'line': b'-- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/plugin_description.xml\n'}
+[14.457948] (rrt_planner) StdoutLine: {'line': b'-- Installing: /home/aryaa/hw9b_all/install/rrt_planner/lib/librrt_planner.so\n'}
+[14.458121] (rrt_planner) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aryaa/hw9b_all/install/rrt_planner/lib/librrt_planner.so" to ""\n'}
+[14.458198] (rrt_planner) StdoutLine: {'line': b'-- Up-to-date: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/plugin_description.xml\n'}
+[14.458235] (rrt_planner) StdoutLine: {'line': b'-- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/launch\n'}
+[14.458894] (rrt_planner) StdoutLine: {'line': b'-- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/launch/run_panda_rrt.launch.py\n'}
+[14.459178] (-) TimerEvent: {}
+[14.459452] (rrt_planner) StdoutLine: {'line': b'-- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/config\n'}
+[14.460028] (rrt_planner) StdoutLine: {'line': b'-- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/config/rrt_moveit.rviz\n'}
+[14.460811] (rrt_planner) StdoutLine: {'line': b'-- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/ament_index/resource_index/package_run_dependencies/rrt_planner\n'}
+[14.461025] (rrt_planner) StdoutLine: {'line': b'-- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/ament_index/resource_index/parent_prefix_path/rrt_planner\n'}
+[14.461165] (rrt_planner) StdoutLine: {'line': b'-- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/environment/ament_prefix_path.sh\n'}
+[14.461378] (rrt_planner) StdoutLine: {'line': b'-- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/environment/ament_prefix_path.dsv\n'}
+[14.461548] (rrt_planner) StdoutLine: {'line': b'-- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/environment/path.sh\n'}
+[14.461597] (rrt_planner) StdoutLine: {'line': b'-- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/environment/path.dsv\n'}
+[14.461766] (rrt_planner) StdoutLine: {'line': b'-- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/local_setup.bash\n'}
+[14.462660] (rrt_planner) StdoutLine: {'line': b'-- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/local_setup.sh\n'}
+[14.462715] (rrt_planner) StdoutLine: {'line': b'-- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/local_setup.zsh\n'}
+[14.462744] (rrt_planner) StdoutLine: {'line': b'-- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/local_setup.dsv\n'}
+[14.462768] (rrt_planner) StdoutLine: {'line': b'-- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/package.dsv\n'}
+[14.462798] (rrt_planner) StdoutLine: {'line': b'-- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/ament_index/resource_index/packages/rrt_planner\n'}
+[14.462822] (rrt_planner) StdoutLine: {'line': b'-- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/ament_index/resource_index/moveit_core__pluginlib__plugin/rrt_planner\n'}
+[14.462847] (rrt_planner) StdoutLine: {'line': b'-- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/cmake/rrt_plannerConfig.cmake\n'}
+[14.463009] (rrt_planner) StdoutLine: {'line': b'-- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/cmake/rrt_plannerConfig-version.cmake\n'}
+[14.463054] (rrt_planner) StdoutLine: {'line': b'-- Installing: /home/aryaa/hw9b_all/install/rrt_planner/share/rrt_planner/package.xml\n'}
+[14.464440] (rrt_planner) CommandEnded: {'returncode': 0}
+[14.492475] (rrt_planner) JobEnded: {'identifier': 'rrt_planner', 'rc': 0}
+[14.493327] (-) EventReactorShutdown: {}

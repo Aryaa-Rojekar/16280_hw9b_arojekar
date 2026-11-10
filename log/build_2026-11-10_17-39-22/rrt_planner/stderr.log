@@ -1,0 +1,30 @@
+In file included from [01m[K/home/aryaa/hw9b_all/src/rrt_planner/include/rrt_planner/rrt_planner_manager.hpp:3[m[K,
+                 from [01m[K/home/aryaa/hw9b_all/src/rrt_planner/src/rrt_planner_manager.cpp:1[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_interface.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/aryaa/hw9b_all/src/rrt_planner/include/rrt_planner/rrt_planner_manager.hpp:4[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/aryaa/hw9b_all/src/rrt_planner/include/rrt_planner/rrt_planner_manager.hpp:5[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/aryaa/hw9b_all/src/rrt_planner/include/rrt_planner/rrt_planner_manager.hpp:6[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/aryaa/hw9b_all/src/rrt_planner/src/rrt_planning_context.cpp:3[m[K,
+                 from [01m[K/home/aryaa/hw9b_all/src/rrt_planner/src/rrt_planner_manager.cpp:6[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_trajectory/robot_trajectory.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/aryaa/hw9b_all/src/rrt_planner/src/rrt_planning_context.cpp:5[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/conversions.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/aryaa/hw9b_all/src/rrt_planner/src/rrt_planning_context.cpp:6[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/kinematic_constraints/utils.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
